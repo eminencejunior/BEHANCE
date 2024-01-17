@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Heebo', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+ body {   
+}
+header {
+    color: white;
+    display: flex;
+    background-image: url(./images/moon2.jpg);
+    padding-bottom: 50px;
+}
+.firstsec {
+
+}
+h2 {
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.firstdiv {
+    display: flex;
+    font-size: 16px;
+    border-bottom: 0.1px solid grey;
+}
+.firstdiv p {
+    padding-left: 30px;
+    padding-top: 8px;
+}
+.seconddiv {
+    display: inline-flex;
+    padding-right: 500px;
+    padding-top: 15px;
+}
+.bell {
+    padding-top: 7px;
+    height: 34px;
+    width: 15px;
+    padding-top: 15px;
+}
+.firstbut {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: hidden;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.firstbut:hover {
+    background-color: white;
+    color: blue;
+}
+.secondbut {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: hidden;
+    border-radius: 5px;
+    margin-left: 15px;
+
+}
+.secondbut:hover {
+    background-color: white;
+    color: blue;
+}
+.thirdbut {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: hidden;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.thirdbut:hover {
+    background-color: white;
+    color: blue;
+}
+.forthbut {
+    display: none;
+}
+.thirddiv {
+    padding-right: 32px;
+}
+h1 {
+    padding-top: 40px;
+    padding-left: 135px;
+    font-size: 70px;
+}
+.secondsec {
+color: white;
+}
+.firstp {
+    color: white;
+    font-size: 30px;
+    padding-left: 340px;
+}
