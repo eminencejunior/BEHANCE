@@ -88,11 +88,12 @@ h2 {
     display: none;
 }
 .thirddiv {
-    padding-right: 32px;
+    padding-left: 190px;
+padding-right: 30px;
 }
 h1 {
-    padding-top: 40px;
-    padding-left: 135px;
+    padding-top: 20px;
+    padding-left: 255px;
     font-size: 70px;
 }
 .secondsec {
@@ -101,5 +102,71 @@ color: white;
 .firstp {
     color: white;
     font-size: 30px;
-    padding-left: 340px;
+    padding-left: 440px;
+}
+.connecticon {
+    height: 50px;
+}
+.seventhdiv {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+ border-radius: 5px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 20px;
+ margin-top: 30px;
+ margin-left: 30px;
+}
+.seventhdiv:hover {
+    color: white;
+    background-color: rgb(72, 68, 68);
+}
+.folder {
+    height: 30px;
+}
+.eigthdiv {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.eigthdiv:hover {
+    color: white;
+    background-color: rgb(72, 68, 68);
+}
+.sixthdiv {
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+}
+.sweet {
+    padding-left: 10px;
+}
+.secondfolder {
+    height: 34px;
+}
+.ninthdiv {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.ninthdiv:hover {
+    color: white;
+    background-color: rgb(72, 68, 68);
 }
