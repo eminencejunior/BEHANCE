@@ -15,10 +15,15 @@ header {
     color: white;
     display: flex;
     background-image: url(./images/moon2.jpg);
-    padding-bottom: 50px;
+    object-fit: contain;
+    max-width: 100%;
+    padding-right: 200px;
+    padding-bottom: 150px;
 }
 .firstsec {
-
+    background-color: black;
+    position: fixed;
+    z-index: 1;
 }
 h2 {
     padding-top: 15px;
@@ -28,6 +33,9 @@ h2 {
     display: flex;
     font-size: 16px;
     border-bottom: 0.1px solid grey;
+}
+.firstdiv:checked {
+    position: fixed;
 }
 .firstdiv p {
     padding-left: 30px;
@@ -88,7 +96,7 @@ h2 {
     display: none;
 }
 .thirddiv {
-    padding-left: 190px;
+    padding-left: 138px;
 padding-right: 30px;
 }
 h1 {
@@ -169,4 +177,194 @@ color: white;
 .ninthdiv:hover {
     color: white;
     background-color: rgb(72, 68, 68);
+}
+.switch {
+    display: flex;
+height: 50px;
+padding-right: 10px;
+
+}
+.tenthdiv {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 260px;
+}
+.arrowicon {
+    height: 30px;
+    padding-left: 160px;
+}
+.stroke {
+    font-size: 30px;
+}
+.eleventhdiv {
+
+}
+.firstlink {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    padding: 10px 120px;
+    border-style: none;
+}
+.firstlink:hover {
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+.secondsection {
+   display: flex;
+  grid-template-rows: 1fr 1fr; 
+    background-color: white;
+}
+.secondlink {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    padding: 10px 123px;
+    border-style: none;
+}
+.secondlink:hover {
+    border-radius: 15px;
+    border: 1px solid blue;
+}
+.twelvethdiv {
+ display: flex;
+ margin-bottom: 10px;
+ margin-left: 34px;
+ border-bottom: 1px solid rgb(231, 225, 225);
+ padding-bottom: 15px;
+ max-width: fit-content;
+}
+.shapesicon {
+    height: 30px;
+}
+.creative {
+    padding-left: 10px;
+    padding-right: 115px;
+}
+.locationicon {
+    height: 30px;
+}
+.location {
+    padding-left: 10px;
+    padding-right: 148px;
+}
+.thirteenthdiv {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(231, 225, 225);
+    max-width: fit-content;
+    margin-left: 30px;
+}
+select {
+    border-style: none;
+    max-width: 30px;
+}
+.fourteenthdiv {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(231, 225, 225);
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+.toolsicon {
+height: 50px;
+padding-top: 20px;
+}
+.tools {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 185px;
+}
+#select {
+    margin-top: 20px;
+}
+.fifteenthdiv {
+   display: block;
+   padding-top: 380px;
+   padding-left: 20px;
+}
+.agirl {
+ object-fit: contain;
+ height: 233px;
+}
+.building {
+    object-fit: contain;
+    height: 233px;
+padding-left: 20px;
+}
+.boyswimming {
+    object-fit: contain;
+    height: 233px;
+padding-left: 20px;
+}
+.seventeenthdiv {
+    position: absolute;
+    top: 120vh;
+    left: 23%;
+}
+
+.man {
+    height: 233px;
+}
+.flower {
+ height: 233px;
+ width: 400px;
+ padding-left: 20px;   
+}
+.teddy {
+    height: 233px;
+    width: 370px;
+ padding-left: 20px; 
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;
+    padding-left: 30px;
+}
+.checkp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.firstinput {
+    margin-left: 10px;
+    padding: 5px 5px;
+    margin-right: 20px;
+}
+.inputbutton {
+    background-color: black;
+    color: white;
+    padding: 0px 15px;
+}
+.inputbutton:hover {
+    background-color: rgb(14, 14, 69);
+    color:white;
+}
+footer {
+    color: white;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu {
+    display: none;
+}
+@media only screen and (max-width: 1020px) {
+   h2 {
+    
+   } 
+   header {
+   display: 
+   }
 }
