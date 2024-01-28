@@ -294,16 +294,16 @@ padding-top: 20px;
 }
 .agirl {
  object-fit: contain;
- height: 233px;
+ height: 200px;
 }
 .building {
     object-fit: contain;
-    height: 233px;
+    height: 200px;
 padding-left: 20px;
 }
 .boyswimming {
     object-fit: contain;
-    height: 233px;
+    height: 200px;
 padding-left: 20px;
 }
 .seventeenthdiv {
@@ -313,15 +313,15 @@ padding-left: 20px;
 }
 
 .man {
-    height: 233px;
+    height: 200px;
 }
 .flower {
- height: 233px;
+ height: 200px;
  width: 400px;
  padding-left: 20px;   
 }
 .teddy {
-    height: 233px;
+    height: 200px;
     width: 370px;
  padding-left: 20px; 
 }
