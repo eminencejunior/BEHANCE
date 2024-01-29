@@ -360,11 +360,23 @@ footer {
 .menu {
     display: none;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 800px) {
    h2 {
-    
+    font-size: 20px;
    } 
+   .seconddiv {
+    display: none;
+   padding-right: 170px;
+   padding-left: 0px;
+   }
    header {
-   display: 
+    padding-right: 0;
+   }
+   .thirddiv {
+    padding-left: 20px;
+   }
+   h1 {
+    padding-left: 80px;
+    font-size: 60px;
    }
 }
