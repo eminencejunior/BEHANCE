@@ -20,10 +20,10 @@ header {
     display:flex;
     align-items: center;
     padding-left: 30px;
-    padding-right: 403px;
+    padding-right: 491px;
 }
 .firstdiv p {
-font-size: 20px;
+font-size: 15px;
 font-weight: bold;
 color: rgb(102, 101, 101);
 padding-right: 30px;
@@ -32,8 +32,8 @@ padding-right: 30px;
     height: 30px;
   
 }
-h2 {
-    padding-top: 7px;
+h4 {
+
 }
 .seconddiv {
     display: flex;
@@ -42,6 +42,7 @@ h2 {
 }
 .firstsec {
     display: flex;
+    align-items: center;
     border-bottom: 1px solid grey;
     padding-bottom: 5px;
     padding-left: 30px;
