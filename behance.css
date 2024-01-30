@@ -12,371 +12,52 @@ font-family: 'Roboto', sans-serif;
  body {   
 }
 header {
-    color: white;
     display: flex;
-    background-image: url(./images/moon2.jpg);
-    object-fit: contain;
-    max-width: 100%;
-    padding-right: 200px;
-    padding-bottom: 150px;
-}
-.firstsec {
-    background-color: black;
-    position: fixed;
-    z-index: 1;
-}
-h2 {
-    padding-top: 15px;
-    padding-left: 30px;
+    padding-top: 10px;
 }
 .firstdiv {
     display: flex;
-    font-size: 16px;
-    border-bottom: 0.1px solid grey;
-}
-.firstdiv:checked {
-    position: fixed;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 562px;
 }
 .firstdiv p {
-    padding-left: 30px;
-    padding-top: 8px;
-}
-.seconddiv {
-    display: inline-flex;
-    padding-right: 500px;
-    padding-top: 15px;
-}
-.bell {
-    padding-top: 7px;
-    height: 34px;
-    width: 15px;
-    padding-top: 15px;
-}
-.firstbut {
-    background-color: blue;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
-    border: hidden;
-    border-radius: 5px;
-    margin-left: 15px;
-}
-.firstbut:hover {
-    background-color: white;
-    color: blue;
-}
-.secondbut {
-    background-color: blue;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
-    border: hidden;
-    border-radius: 5px;
-    margin-left: 15px;
-
-}
-.secondbut:hover {
-    background-color: white;
-    color: blue;
-}
-.thirdbut {
-    background-color: blue;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 10px;
-    border: hidden;
-    border-radius: 5px;
-    margin-left: 15px;
-}
-.thirdbut:hover {
-    background-color: white;
-    color: blue;
-}
-.forthbut {
-    display: none;
-}
-.thirddiv {
-    padding-left: 20px;
+font-size: 20px;
+font-weight: bold;
+color: rgb(102, 101, 101);
 padding-right: 30px;
 }
-h1 {
-    padding-top: 20px;
-    padding-left: 255px;
-    font-size: 70px;
-}
-.secondsec {
-color: white;
-}
-.firstp {
-    color: white;
-    font-size: 30px;
-    padding-left: 440px;
-}
-.connecticon {
-    height: 50px;
-}
-.seventhdiv {
-    display: flex;
-    align-items: center;
-    background-color: grey;
- border-radius: 5px;
- padding-top: 10px;
- padding-bottom: 10px;
- padding-right: 20px;
- margin-top: 30px;
- margin-left: 30px;
-}
-.seventhdiv:hover {
-    color: white;
-    background-color: rgb(72, 68, 68);
-}
-.folder {
+.firstimg {
     height: 30px;
+  
 }
-.eigthdiv {
+h2 {
+    padding-top: 7px;
+}
+.seconddiv {
     display: flex;
     align-items: center;
-    background-color: grey;
-    margin-top: 30px;
-    margin-left: 30px;
-    padding-top: 16px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-    justify-content: center;
-}
-.eigthdiv:hover {
-    color: white;
-    background-color: rgb(72, 68, 68);
-}
-.sixthdiv {
-    display: flex;
-    align-items: center;
-    padding-left: 170px;
-}
-.sweet {
-    padding-left: 10px;
-}
-.secondfolder {
-    height: 34px;
-}
-.ninthdiv {
-    display: flex;
-    align-items: center;
-    background-color: grey;
-    margin-top: 30px;
-    margin-left: 30px;
-    padding-top: 16px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-    justify-content: center;
-}
-.ninthdiv:hover {
-    color: white;
-    background-color: rgb(72, 68, 68);
-}
-.switch {
-    display: flex;
-height: 50px;
-padding-right: 10px;
 
 }
-.tenthdiv {
+.firstsec {
     display: flex;
-    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
     padding-left: 30px;
-    margin-top: 260px;
+    padding-right: 30px;
 }
-.arrowicon {
-    height: 30px;
-    padding-left: 160px;
+.seconddiv a {
+    display: flex;
+    align-items: center;
 }
-.stroke {
-    font-size: 30px;
-}
-.eleventhdiv {
-
-}
-.firstlink {
-    display: block;
-    text-decoration: none;
-    color: black;
+#seconddiv button {
+    color: blue;
     font-weight: bold;
-    margin-bottom: 10px;
-    margin-left: 35px;
-    padding: 10px 120px;
-    border-style: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border-color: rgb(165, 222, 241);
 }
-.firstlink:hover {
-    border-radius: 15px;
-    border: 1px solid blue;
-}
-.secondsection {
-   display: flex;
-  grid-template-rows: 1fr 1fr; 
-    background-color: white;
-}
-.secondlink {
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-bottom: 10px;
-    margin-left: 35px;
-    padding: 10px 123px;
-    border-style: none;
-}
-.secondlink:hover {
-    border-radius: 15px;
-    border: 1px solid blue;
-}
-.twelvethdiv {
- display: flex;
- margin-bottom: 10px;
- margin-left: 34px;
- border-bottom: 1px solid rgb(231, 225, 225);
- padding-bottom: 15px;
- max-width: fit-content;
-}
-.shapesicon {
-    height: 30px;
-}
-.creative {
-    padding-left: 10px;
-    padding-right: 115px;
-}
-.locationicon {
-    height: 30px;
-}
-.location {
-    padding-left: 10px;
-    padding-right: 148px;
-}
-.thirteenthdiv {
-    display: flex;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(231, 225, 225);
-    max-width: fit-content;
-    margin-left: 30px;
-}
-select {
-    border-style: none;
-    max-width: 30px;
-}
-.fourteenthdiv {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgb(231, 225, 225);
-    margin-bottom: 20px;
-    max-width: fit-content;
-}
-.toolsicon {
-height: 50px;
-padding-top: 20px;
-}
-.tools {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 185px;
-}
-#select {
-    margin-top: 20px;
-}
-.fifteenthdiv {
-   display: block;
-   padding-top: 380px;
-   padding-left: 20px;
-}
-.agirl {
- object-fit: contain;
- height: 200px;
-}
-.building {
-    object-fit: contain;
-    height: 200px;
-padding-left: 20px;
-}
-.boyswimming {
-    object-fit: contain;
-    height: 200px;
-padding-left: 20px;
-}
-.seventeenthdiv {
-    position: absolute;
-    top: 120vh;
-    left: 25.5%;
-}
-
-.man {
-    height: 200px;
-}
-.flower {
- height: 200px;
- width: 345px;
- padding-left: 20px;   
-}
-.teddy {
-    height: 200px;
-    width: 320px;
- padding-left: 20px; 
-}
-form {
-    display: flex;
-    justify-content: center;
-    padding-top: 40vh;
-    padding-left: 30px;
-}
-.checkp {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-.firstinput {
-    margin-left: 10px;
-    padding: 5px 5px;
-    margin-right: 20px;
-}
-.inputbutton {
-    background-color: black;
+#seconddiv button:hover {
+    background-color: blue;
     color: white;
-    padding: 0px 15px;
-}
-.inputbutton:hover {
-    background-color: rgb(14, 14, 69);
-    color:white;
-}
-footer {
-    color: white;
-    background-color: black;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.menu {
-    display: none;
-}
-@media only screen and (max-width: 800px) {
-   h2 {
-    font-size: 20px;
-   } 
-   .seconddiv {
-    display: none;
-   padding-right: 170px;
-   padding-left: 0px;
-   }
-   header {
-    padding-right: 0;
-   }
-   .thirddiv {
-    padding-left: 20px;
-   }
-   h1 {
-    padding-left: 80px;
-    font-size: 60px;
-   }
 }
