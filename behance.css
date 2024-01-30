@@ -16,10 +16,10 @@ header {
     padding-top: 10px;
 }
 .firstdiv {
-    display: flex;
+    display: none;
     align-items: center;
     padding-left: 30px;
-    padding-right: 562px;
+    padding-right: 562spx;
 }
 .firstdiv p {
 font-size: 20px;
