@@ -11,28 +11,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Libre+Baskerville:wght@700&family=Noto+Serif&family=Oswald:wght@500&family=Roboto&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
 </script>
-<script src="./behance.js">
+<script>
     $(document).ready(function() {
-        $("#menu").click(function() {
-            $("#thirddiv").toggle();
+        $("#menuicon").click(function() {
+            $("#seconddiv").toggle();
         });
     });
-</script>
+    </script>
 </head>
 <body>
-   <header>
-    <section class="firstsec">
-
-        <h3>Behance</h3>
-        <div class="firstdiv">
-            <p>For you</p>
-            <p>Discover</p>
-            <p>Hire</p>
-            <p>Asset</p>
-            <p>Jobs</p>
+    <header>
+        <section class="firstsec">
+            <div class="be">
+                <h3>Behance</h3>
+                <img src="./images/bellblack.png" alt="notifiction bell image" class="firstimg" onmouseover="myFunction()">
+                <img src="./images/menuicon.png" alt="" id="menuicon">
+            </div>
+            <div class="firstdiv">
+                <p>For you</p>
+                <p>Discover</p>
+                <p>Hire</p>
+                <p>Asset</p>
+                <p>Jobs</p>
+            </div>
+            <div class="images">
+                <img src="./images/bellblack.png" alt="notifiction bell image" class="resimg" onmouseover="myFunction()">  
         </div>
         <div id="seconddiv">
-            <img src="./images/bellblack.png" alt="notifiction bell image" class="firstimg">
+            <button>Log in</button>
+            <button>Sign Up</button>
+            <button>Free Trial</button>
+            <button>Adobe</button>
+        </div>
+        <div id="seconddivmo">
             <button>Log in</button>
             <button>Sign Up</button>
             <button>Free Trial</button>
@@ -40,3 +51,20 @@
         </div>
     </section>
     </header>
+    <div class="forthdiv">
+        <div class="thirddiv">
+            <img src="./images/switchicon-removebg-preview.png" alt="switch icon" class="switch">
+            <p class="filter"><strong>Filter</strong></p>
+        </div>
+        <div class="fifthdiv">
+            <img src="./images/searchicon.png" alt="" class="secondimg">
+            <p class="search">Search the creative world at work</p>
+        </div>
+        <form action="#" class="form">
+            <fieldset>
+                <legend>Recommend :</legend>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

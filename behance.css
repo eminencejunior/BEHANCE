@@ -10,7 +10,8 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 max-width: 100%;
 }
- body {   
+ body {
+       
 }
 header {
     display: flex;
@@ -29,8 +30,13 @@ color: rgb(102, 101, 101);
 padding-right: 30px;
 }
 .firstimg {
+    display: none;
     height: 30px;
-  
+}
+.resimg {
+    display: flex;
+    height: 30px;
+    padding-left: 17px;
 }
 h4 {
 
@@ -48,18 +54,117 @@ h4 {
     padding-left: 30px;
     padding-right: 30px;
 }
-.seconddiv a {
-    display: flex;
+#seconddiv {
+    display: none;
     align-items: center;
 }
 #seconddiv button {
+    display: flex;
     color: blue;
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 20px;
-    border-color: rgb(165, 222, 241);
+    border-color: rgb(205, 235, 244);
 }
 #seconddiv button:hover {
     background-color: blue;
     color: white;
+}
+#seconddivmo {
+    display: flex;
+    align-items: center;
+}
+#seconddivmo button {
+    display: flex;
+    color: blue;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border-color: rgb(205, 235, 244);
+}
+#seconddivmo button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.switch {
+    height: 40px;
+    width: 40px;
+}
+.thirddiv {
+    display: flex;
+   align-items: center;
+   padding: 5px 20px;
+   border: 1px solid lightgray;
+   max-width: 120px;
+   border-radius: 25px;
+   color: rgb(82, 81, 81);
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.secondimg {
+    height: 20px;
+}
+.forthdiv {
+    display: flex;
+    align-items: center;
+}
+.fifthdiv {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-right: 630px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    padding-bottom: 17px;
+}
+legend {
+    padding: 0px 20px;
+}
+.search {
+    padding-left: 10px;
+}
+#menuicon {
+    display: none;
+}
+.images {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .firstdiv {
+        display: none;
+    }
+    #menuicon {
+        display: flex;
+        height: 30px;
+        width: 30px;
+    }
+     .firstimg {
+        display: flex;
+        padding-left: 130px;
+     }
+    .firstsec {
+        display: flex;
+        flex-direction: column;
+        border-style: none;
+    }
+    .be {
+        display: flex;
+    }
+    #seconddiv {
+        display: flex;
+        flex-direction: column;
+    }
+    #seconddiv button {
+        display: flex;
+    }
+    .resimg {
+        display: none;
+    }
+    #seconddivmo {
+        display: none;
+    }
 }
