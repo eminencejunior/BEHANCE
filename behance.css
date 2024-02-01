@@ -159,13 +159,14 @@ legend {
     #seconddiv {
         display: none;
         flex-direction: column;
-        background-color: black;
+        background-color: grey;
         padding: 5px 10px;
         margin-left: 160px;
 
     }
     #seconddiv button {
         display: flex;
+        margin-bottom: 10px;
         border-style: none;
     }
     .resimg {
@@ -234,4 +235,22 @@ legend {
       height: 20px;
       opacity: 0.5;
    } 
+   .ribbonpic {
+    height: 300px;
+    width: 330px;
+    padding-top: 20px;
+    padding-left: 30px;
+   }
+   .secondbag {
+    display: flex;
+    align-items: center;
+   }
+   .secondbagp {
+    padding-left: 30px;
+   }
+   .thumbiconii {
+    padding-left: 65px;
+      height: 20px;
+      opacity: 0.5;
+   }
 }
