@@ -132,10 +132,101 @@ legend {
 }
 .images {
     display: flex;
+    padding-left: 16px;
+}
+.divitems {
+    display: flex
+}
+.firstbag {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+    border: 1px solid grey;
+    border-width: 40px;
+}
+.thumbiconi {
+    height: 20px;
+    padding-left: 212px;
+    opacity: 0.5;
+}
+.firstbagp {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.firstset {
+    padding-left: 30px;
+}
+.firstshop {
+    padding: 5px 70px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+    background-color: grey;
+    border-style: none;
+}
+.secondshop {
+    padding: 5px 70px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+    background-color: grey;
+    border-style: none;
+}
+.thirdshop {
+    padding: 5px 70px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+    background-color: grey;
+    border-style: none;
+}
+.ribbonpic {
+    height: 300px;
+    border: 1px solid grey;
+    border-width: 40px;
+    width: 400px;
+    padding-top: 0px;
+}
+.thumbiconii{
+    height: 20px;
+    padding-left: 180px;
+    opacity: 0.5;
+}
+.secondbag {
+    padding-left: 50px;
+}
+.secondbagp {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.thirdset {
+    padding-left: 50px;
+}
+.tigerpic {
+    height: 300px;
+    border: 1px solid grey;
+    border-width: 40px;
+    width: 400px;
+    padding-top: 0px;
+}
+.thumbiconiii {
+    height: 20px;
+    padding-left: 230px;
+    opacity: 0.5;
 }
 @media only screen and (max-width: 600px) {
     .firstdiv {
         display: none;
+    }
+    .divitems {
+        display: flex;
+        flex-direction: column;
+    }
+    .firstset {
+        display: flex;
+        flex-direction: column;
     }
     #menuicon {
         display: flex;
@@ -195,6 +286,19 @@ legend {
     margin-right: 30px;
     max-width: 980px;
    }
+   .firstshop {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    padding: 10px 60px;
+    max-width: 160px;
+    margin-bottom: 30px;
+   }
+   .secondshop {
+  margin-left: 0px;
+  padding: 10px 60px;
+  margin-bottom: 30px;
+   }
    .filter {
     padding-right: 80px;
    }
@@ -220,37 +324,47 @@ legend {
    }
    .firstbag {
     height: 300px;
-    width: 320px;
+    width: 300px;
     padding-left: 30px;
-   }
-   .firstset {
-    display: flex;
-    align-items: center;
    }
    .firstbagp {
     padding-left: 30px;
    }
    .thumbiconi {
-    padding-left: 100px;
+    padding-left: 70px;
       height: 20px;
       opacity: 0.5;
    } 
    .ribbonpic {
     height: 300px;
     width: 330px;
-    padding-top: 20px;
-    padding-left: 30px;
    }
    .secondbag {
     display: flex;
     align-items: center;
-   }
-   .secondbagp {
+    flex-direction: column;
     padding-left: 30px;
+    padding-right: 30px;
    }
+ 
    .thumbiconii {
     padding-left: 65px;
       height: 20px;
       opacity: 0.5;
+   }
+   .thirdset {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+   }
+   .thumbiconiii {
+    padding-left: 125px;
+   }
+  
+   .thirdshop {
+    margin-left: 70px;
+    padding: 10px 0px;
+    max-width: 160px;
    }
 }
