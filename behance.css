@@ -36,7 +36,7 @@ padding-right: 30px;
 .resimg {
     display: flex;
     height: 30px;
-    padding-left: 17px;
+    padding-left: 58px;
 }
 h4 {
 
@@ -216,6 +216,64 @@ legend {
     padding-left: 230px;
     opacity: 0.5;
 }
+  
+@media only screen and (max-width: 1200px) {
+    .firstdiv {
+        padding-right: 92px;
+    }
+    form {
+        display: none;
+    }
+    .fifthdiv{
+        padding-right: 538px;
+    }
+    .firstset {
+        padding-left: 30px;
+    }
+    .firstbag {
+        height: 350px;
+        width: 288px;
+    }
+    .firstbagp {
+        padding: 0px;
+    }
+    .ribbonpic {
+        height: 250px;
+        width: 288px;
+    }
+    .tigerpic {
+        height: 250px;
+        width: 288px;
+    }
+    .secondbag {
+        padding-left: 50px;
+    }
+    .thirdset {
+        padding-left: 50px;
+    }
+    .thumbiconi {
+        padding-left: 90px;
+    }
+    .thumbiconii {
+        padding-left: 60px;
+    }
+    .thumbiconiii {
+        padding-left: 110px;
+    }
+    .firstshop {
+        margin-left: 60px;
+    }
+    .secondshop {
+        margin-left: 60px;
+    }
+    .thirdshop {
+        margin-left: 60px;
+    }
+    .divitems {
+        padding-top: 20px;
+    }
+    
+}
 
 @media only screen and (max-width: 900px) {
     .firstdiv {
@@ -237,7 +295,7 @@ legend {
     }
      .firstimg {
         display: flex;
-        padding-left: 100px;
+        padding-left: 70px;
      }
     .firstsec {
         display: flex;
@@ -325,7 +383,7 @@ legend {
    }
    .firstbag {
     height: 300px;
-    width: 300px;
+    width: 200px;
     padding-left: 30px;
    }
    .firstbagp {
@@ -347,7 +405,10 @@ legend {
     padding-left: 30px;
     padding-right: 30px;
    }
- 
+    .tigerpic {
+        height: 300px;
+        width: 330px;
+    }
    .thumbiconii {
     padding-left: 65px;
       height: 20px;
@@ -369,59 +430,22 @@ legend {
    }
 
 }
-@media only screen and (max-width: 1200px) {
-    .firstdiv {
-        padding-right: 92px;
-    }
-    form {
-        display: none;
-    }
-    .fifthdiv{
-        padding-right: 538px;
-    }
-    .firstset {
-        padding-left: 30px;
-    }
-    .firstbag {
-        height: 250px;
-        width: 288px;
-    }
-    .firstbagp {
-        padding: 0px;
-    }
-    .ribbonpic {
-        height: 250px;
-        width: 288px;
-    }
-    .tigerpic {
-        height: 250px;
-        width: 288px;
-    }
-    .secondbag {
-        padding-left: 50px;
-    }
-    .thirdset {
-        padding-left: 50px;
-    }
-    .thumbiconi {
-        padding-left: 90px;
-    }
-    .thumbiconii {
-        padding-left: 60px;
-    }
-    .thumbiconiii {
-        padding-left: 110px;
-    }
-    .firstshop {
-        margin-left: 60px;
-    }
-    .secondshop {
-        margin-left: 60px;
-    }
-    .thirdshop {
-        margin-left: 60px;
-    }
-    .divitems {
-        padding-top: 20px;
-    }
+@media screen and (max-width: 500px)  {
+   .firstimg {
+    padding-left: 125px;
+    padding-right: 10px;
+   }
+   .firstbag {
+    width: 90%;
+    padding-right: 30px;
+   }
+   .firstbag:hover {
+    opacity: 0.5;
+   }
+   .ribbonpic:hover {
+    opacity: 0.5;
+   }
+   .tigerpic:hover {
+    opacity: 0.5;
+   }
 }
