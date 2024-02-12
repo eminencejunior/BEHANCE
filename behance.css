@@ -21,7 +21,7 @@ header {
     display:flex;
     align-items: center;
     padding-left: 30px;
-    padding-right: 474px;
+    padding-right: 434px;
 }
 .firstdiv p {
 font-size: 15px;
@@ -216,7 +216,8 @@ legend {
     padding-left: 230px;
     opacity: 0.5;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 900px) {
     .firstdiv {
         display: none;
     }
@@ -361,10 +362,66 @@ legend {
    .thumbiconiii {
     padding-left: 125px;
    }
-  
    .thirdshop {
     margin-left: 70px;
     padding: 10px 0px;
     max-width: 160px;
    }
+
+}
+@media only screen and (max-width: 1200px) {
+    .firstdiv {
+        padding-right: 92px;
+    }
+    form {
+        display: none;
+    }
+    .fifthdiv{
+        padding-right: 538px;
+    }
+    .firstset {
+        padding-left: 30px;
+    }
+    .firstbag {
+        height: 250px;
+        width: 288px;
+    }
+    .firstbagp {
+        padding: 0px;
+    }
+    .ribbonpic {
+        height: 250px;
+        width: 288px;
+    }
+    .tigerpic {
+        height: 250px;
+        width: 288px;
+    }
+    .secondbag {
+        padding-left: 50px;
+    }
+    .thirdset {
+        padding-left: 50px;
+    }
+    .thumbiconi {
+        padding-left: 90px;
+    }
+    .thumbiconii {
+        padding-left: 60px;
+    }
+    .thumbiconiii {
+        padding-left: 110px;
+    }
+    .firstshop {
+        margin-left: 60px;
+    }
+    .secondshop {
+        margin-left: 60px;
+    }
+    .thirdshop {
+        margin-left: 60px;
+    }
+    .divitems {
+        padding-top: 20px;
+    }
 }
