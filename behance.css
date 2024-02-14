@@ -36,7 +36,7 @@ padding-right: 30px;
 .resimg {
     display: flex;
     height: 30px;
-    padding-left: 58px;
+    padding-left: 41px;
 }
 h4 {
 
@@ -135,7 +135,8 @@ legend {
     padding-left: 16px;
 }
 .divitems {
-    display: flex
+    display: flex;
+    padding-top: 20px;
 }
 .firstbag {
     height: 300px;
@@ -156,6 +157,13 @@ legend {
 }
 .firstset {
     padding-left: 30px;
+    position: relative;
+    animation-name: firstset;
+    animation-duration: 3s;
+}
+@keyframes firstset {
+    0% {left: -300px; top: 0px;}
+    100% {left: 0px; top: 0px;}
 }
 .firstshop {
     padding: 5px 70px;
@@ -168,15 +176,15 @@ legend {
 .secondshop {
     padding: 5px 70px;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 9px;
     color: white;
     background-color: grey;
     border-style: none;
 }
 .thirdshop {
-    padding: 5px 70px;
+    padding: 4px 70px;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 7px;
     color: white;
     background-color: grey;
     border-style: none;
@@ -203,6 +211,9 @@ legend {
 }
 .thirdset {
     padding-left: 50px;
+    position: relative;
+    animation-name: tigerpic;
+    animation-duration: 3s;
 }
 .tigerpic {
     height: 300px;
@@ -211,12 +222,50 @@ legend {
     width: 400px;
     padding-top: 0px;
 }
+@keyframes tigerpic {
+    0% {right: -300px; top: 0px;}
+    100% {right: 0px; top: 0px;}
+}
 .thumbiconiii {
     height: 20px;
     padding-left: 230px;
     opacity: 0.5;
 }
-  
+  .utensils {
+    width: 29.2%;
+    border: 1px solid grey;
+    border-width: 40px;
+    margin-left: 30px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+  }
+  @keyframes example {
+    0% {left: -300px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+  }
+  .curtain {
+    width: 29.3%;
+    border: 1px solid grey;
+    border-width: 40px;
+    margin-left: 52px;
+    height: 285px;
+  }
+  .car {
+    width: 29.3%;
+    border: 1px solid grey;
+    border-width: 40px;
+    margin-left: 52px;
+    height: 285px;
+    position: relative;
+    animation-name: car;
+    animation-duration: 3s;
+  }
+  @keyframes car {
+    0% {right: -300px; top: 0px;}
+    100% {right: 0px; top: 0px;}
+  }
+
 @media only screen and (max-width: 1200px) {
     .firstdiv {
         padding-right: 92px;
@@ -436,11 +485,18 @@ legend {
     padding-right: 10px;
    }
    .firstbag {
-    width: 90%;
+    width: 92%;
     padding-right: 30px;
    }
+
    .firstbag:hover {
     opacity: 0.5;
+   }
+   .ribbonpic {
+    width: 100%;
+   }
+   .tigerpic {
+    width: 100%;
    }
    .ribbonpic:hover {
     opacity: 0.5;
