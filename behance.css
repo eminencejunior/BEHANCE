@@ -20,8 +20,8 @@ header {
 .firstdiv {
     display:flex;
     align-items: center;
+    padding-right: 418px;
     padding-left: 30px;
-    padding-right: 434px;
 }
 .firstdiv p {
 font-size: 15px;
@@ -52,7 +52,6 @@ h4 {
     border-bottom: 1px solid grey;
     padding-bottom: 5px;
     padding-left: 30px;
-    padding-right: 30px;
 }
 #seconddiv {
     display: none;
@@ -73,6 +72,7 @@ h4 {
 #seconddivmo {
     display: flex;
     align-items: center;
+    padding-right: 30px;
 }
 #seconddivmo button {
     display: flex;
@@ -202,7 +202,7 @@ legend {
     opacity: 0.5;
 }
 .secondbag {
-    padding-left: 50px;
+    padding-left: 35px;
 }
 .secondbagp {
     display: flex;
@@ -210,7 +210,7 @@ legend {
     font-size: 15px;
 }
 .thirdset {
-    padding-left: 50px;
+    padding-left: 35px;
     position: relative;
     animation-name: tigerpic;
     animation-duration: 3s;
@@ -232,10 +232,11 @@ legend {
     opacity: 0.5;
 }
   .utensils {
-    width: 29.2%;
+    width: 30.5%;
     border: 1px solid grey;
     border-width: 40px;
     margin-left: 30px;
+    margin-right: 5px;
     position: relative;
     animation-name: example;
     animation-duration: 3s;
@@ -245,18 +246,18 @@ legend {
     100% {left: 0px; top: 0px;}
   }
   .curtain {
-    width: 29.3%;
+    width: 30%;
     border: 1px solid grey;
     border-width: 40px;
-    margin-left: 52px;
-    height: 285px;
+    margin-left: 56px;
+    height: 235px;
   }
   .car {
-    width: 29.3%;
+    width: 30%;
     border: 1px solid grey;
     border-width: 40px;
-    margin-left: 52px;
-    height: 285px;
+    margin-left: 30px;
+    height: 295px;
     position: relative;
     animation-name: car;
     animation-duration: 3s;
@@ -477,8 +478,19 @@ legend {
     padding: 10px 0px;
     max-width: 160px;
    }
-
+   .utensils {
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+   }
 }
+.curtain {
+    height: 30%;
+    
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 @media screen and (max-width: 500px)  {
    .firstimg {
     padding-left: 125px;
@@ -504,4 +516,20 @@ legend {
    .tigerpic:hover {
     opacity: 0.5;
    }
+   .slide {
+    display: flex;
+    flex-direction: column;
+   }
+   .utensils {
+    height: 100%;
+    width: 85%;
+    margin : 30px;
+   }
+.curtain {
+    height: 100%;
+    width: 85%;
+    margin-top: 30px;
+    margin-left: 30px;
 }
+}
+
